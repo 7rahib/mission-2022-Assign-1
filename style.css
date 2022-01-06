@@ -1,14 +1,12 @@
 body{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
     margin: 0;
-    padding: 0;
 }
 #color-header{
     color: #FFAD5A;
 }
 h1{
     font-size: 55px;
-    font-family: 'Yeseva One', cursive;
 }
 h2{
     font-size: 40px;
@@ -17,7 +15,7 @@ footer{
     text-align: center;
     background-color: rgb(9, 3, 26);
     color: white;
-    padding: 15px 0;
+    padding: 20px 0;
 }
 footer p{
     color: rgb(173, 172, 172);
