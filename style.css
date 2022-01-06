@@ -6,7 +6,7 @@ body{
     color: #0dca72;
 }
 h1{
-    font-size: 55px;
+    font-size: 50px;
 }
 h2{
     font-size: 40px;
@@ -25,7 +25,7 @@ footer p{
 }
 
 .intro-section{
-    height: 600px;
+    height: 650px;
     margin-top: 60px;
 }
 .intro-width{
@@ -107,13 +107,13 @@ footer p{
 
 
 .fourth-section{
-    height: 500px;
+    height: 550px;
 
 }
 .project{
     width: 40%;
     float: left;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 .project img{
     width: 60%;
