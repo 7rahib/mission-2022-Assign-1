@@ -24,6 +24,7 @@ footer p{
     color: rgb(173, 172, 172);
 }
 
+/*Intro-Section*/
 .intro-section{
     height: 650px;
     margin-top: 60px;
@@ -58,6 +59,7 @@ footer p{
     font-size: 15px;
 }
 
+/*mission-section*/
 .second-section{
     width: 100%;
     height: 600px;
@@ -91,7 +93,7 @@ footer p{
     background-color: rgb(212, 255, 212);
 }
 
-
+/*coding-section*/
 .third-section{
     height: 550px;
 }
@@ -105,10 +107,9 @@ footer p{
     margin-left: 250px;
 }
 
-
+/*presentation-section*/
 .fourth-section{
     height: 550px;
-
 }
 .project{
     width: 40%;
@@ -119,7 +120,7 @@ footer p{
     width: 60%;
 }
 
-
+/*project-section*/
 .fifth-section{
     height: 850px;
 }
