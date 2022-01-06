@@ -14,15 +14,7 @@ h2{
 h3{
     font-size: 30px;
 }
-footer{
-    text-align: center;
-    background-color: rgb(12, 6, 27);
-    color: white;
-    padding: 5px 0;
-}
-footer p{
-    color: rgb(173, 172, 172);
-}
+
 
 /*Intro-Section*/
 .intro-section{
@@ -141,6 +133,16 @@ footer p{
     margin-right: 50px;
 }
 
+/*footer*/
+footer{
+    text-align: center;
+    background-color: rgb(12, 6, 27);
+    color: white;
+    padding: 5px 0;
+}
+footer p{
+    color: rgb(173, 172, 172);
+}
 
 
 
