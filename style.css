@@ -1,58 +1,57 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
-    padding: 0%;
+    padding: 0;
 }
 #color-header{
-    color: rgb(238, 169, 65);
+    color: #FFAD5A;
 }
 h1{
-    font-size: 50px;
+    font-size: 55px;
+    font-family: 'Yeseva One', cursive;
 }
 h2{
     font-size: 40px;
 }
+footer{
+    text-align: center;
+    background-color: rgb(9, 3, 26);
+    color: white;
+    padding: 15px 0;
+}
+footer p{
+    color: rgb(173, 172, 172);
+}
+#footer-header{
+    color: #FF5959;
+}
+
+
+
+/*Intro Section*/
 .intro-section{
     height: 600px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
-.third-section{
-    height: 550px;
-    background-image: url(images/shapes/shape-1.png);
-    background-position:left;
-    background-repeat: no-repeat;
-    background-size: 15%;
-}
-.fourth-section{
-    height: 500px;
-
-}
-.fifth-section{
-    height: 600px;
-    background-image: url(images/shapes/shape-7.png);
-    background-size: 40%;
-    background-repeat: no-repeat;
-    margin-bottom: 30px;
-}
-.half-width{
+.intro-width{
     width: 40%;
     float: left;
     margin-left: 6%;
     padding: 2%;
 }
-.half-width img{
-    width: 60%;
+.intro-width img{
+    width: 70%;
     margin-left: 7%;
 }
 .header-border{
     border-left: 4px solid;
-    border-color: rgb(238, 169, 65);
+    border-color: #FFAD5A;
     border-image-slice: 1;
     padding: 0px 0px 0px 10px;
 }
 .explore-button{
     color: white;
-    background-color: rgb(238, 93, 93);
+    background-color: #FF5959;
     border: none;
     border-radius: 7px;
     margin-top: 5px;
@@ -63,36 +62,49 @@ h2{
     padding-right: 30px;
     font-size: 15px;
 }
-.mission-header{
-    text-align: center;
-}
+
+
+
+/*Mission Section*/
 .second-section{
     width: 100%;
     height: 600px;
 }
-.container-flex{
+.mission-header{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.second-width{
     display: flex;
     width: 100%;
     justify-content: center;
 }
 .mission-box{
-    margin: 0px 5px;
+    margin: 0px 15px;
     width: 22%;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 20px 20px 20px 20px;
 }
 .mission-box img{
     width: 30%;
-    height: 150px;
+    height: 110px;
 }
 #blue{
-    background-color: rgb(211, 238, 247) ;
+    background-color: rgb(241, 241, 253) ;
 }
 #pink{
-    background-color: rgb(250, 221, 226);
+    background-color: rgb(255, 235, 246);
 }
 #green{
-    background-color: rgb(202, 236, 202);
+    background-color: rgb(215, 255, 215);
+}
+
+
+
+
+/*Develop Section*/
+.third-section{
+    height: 550px;
 }
 .coding{
     width: 40%;
@@ -103,6 +115,13 @@ h2{
     width: 60%;
     margin-left: 250px;
 }
+
+
+/*Project Section*/
+.fourth-section{
+    height: 500px;
+
+}
 .project{
     width: 40%;
     float: left;
@@ -111,20 +130,33 @@ h2{
 .project img{
     width: 60%;
 }
+
+
+/*App Section*/
+.fifth-section{
+    height: 850px;
+}
 .app{
     width: 40%;
     float: left;
+    margin-left: 50px;
 }
 .app img{
-    width: 50%;
-    height: 500px;  
-    margin-left: 250px;
+    width: 90%;
+    height: 570px;  
+    margin-left: 80px;
+    box-shadow: rgb(248, 248, 248) 10px 0px 100px;
 
 }
-footer{
-    text-align: center;
-    background-color: rgb(9, 3, 26);
-    color: white;
-    padding: 15px 0;
+#app-header{
+    margin-top: 80px;
+    margin-right: 50px;
 }
+#color2-header{
+    color: #28c77d;
+}
+
+
+
+
 
